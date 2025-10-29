@@ -6,17 +6,34 @@
    Review Assignment
 
    Cinema Penguin Styles for Media
-   Author: 
-   Date:   
+   Author: Elizanna Hahn
+   Date:   10/29/25
 
    Filename: 
 
 */
 
 /* Media Styles */
-
+audio, video {
+   display: block;
+   width: 95%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 
 
 /* Track Styles */
-
+::cue {
+   background-color: transparent;
+   text-shadow: black 1px 1px 2px;
+   color: rgb(255, 177, 66);
+   font-size: 1.2em;
+   font-family: sans-serif;
+}
+::cue(.Main) {
+   font-size: 2em;
+   font-family: serif;
+}
